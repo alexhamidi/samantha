@@ -1,5 +1,9 @@
 # Samantha
 
+
+https://github.com/user-attachments/assets/d5d3b53d-6ac9-40fc-9776-1afc7efbe4f4
+
+
 A wrapper for Meta's [SAM Audio Editor](https://aidemos.meta.com/segment-anything/editor/segment-audio) that handles audio files of **any length** (Meta's demo has a 29-second limit).
 
 Upload an MP3/WAV and edit it with natural language prompts like "remove vocals" or "isolate the drums". Audio >29s is automatically split into chunks, processed in parallel, and stitched back together.
