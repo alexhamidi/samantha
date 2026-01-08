@@ -1,4 +1,4 @@
-# SAM Wrapper
+# Samantha
 
 A wrapper for Meta's [SAM Audio Editor](https://aidemos.meta.com/segment-anything/editor/segment-audio) that handles audio files of **any length** (Meta's demo has a 29-second limit).
 
