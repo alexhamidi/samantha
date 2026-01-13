@@ -8,32 +8,24 @@ A wrapper for Meta's [SAM Audio Editor](https://aidemos.meta.com/segment-anythin
 
 Upload an MP3/WAV/M4A and edit it with natural language prompts like "remove vocals" or "isolate the drums". Audio >29s is automatically split into chunks, processed in parallel, and stitched back together.
 
-## Setup
+## Setup & Run
 
-Install ffmpeg and Chrome, then:
-
-```bash
-# Backend
-cd backend
-uv pip install -r requirements.txt
-playwright install-deps
-
-# Frontend
-cd frontend
-bun install
-```
-
-## Run
+Run the setup script (handles everything automatically):
 
 ```bash
-# Backend (port 8000)
-cd backend && python run.py
-
-# Frontend (port 3000)
-cd frontend && bun dev
+./setup.sh
 ```
 
-Open `http://localhost:3000`
+The script will:
+- Install ffmpeg (if not present)
+- Install Chrome (if not present)
+- Create a virtual environment (uses `uv` if available for faster installs)
+- Install all Python dependencies
+- Install Playwright and its dependencies
+- Install all frontend dependencies (uses `bun` if available)
+- Optionally start both backend (port 8000) and frontend (port 3000)
+
+Then open `http://localhost:3000`
 
 ## Notes
 

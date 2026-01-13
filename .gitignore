@@ -20,6 +20,8 @@ instance/
 # VSCode
 .vscode/
 .git-backuo
+outputs
+data.json
 
 # Node/Next.js
 node_modules/

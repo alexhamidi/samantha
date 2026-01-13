@@ -112,7 +112,7 @@ class BrowserManager:
             
             # create output dir for this chunk (ensure parent dirs exist)
             chunk_output_dir = os.path.join(output_dir, f"chunk_{chunk_index}")
-            os.makedirs(chunk_output_dir, parents=True, exist_ok=True)
+            os.makedirs(chunk_output_dir, exist_ok=True)
             
             # download isolated and without_isolated files
             download_button_cords = (1245, 52)

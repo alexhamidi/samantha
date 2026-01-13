@@ -4,8 +4,27 @@
       "id": "87b1c5dc-3fca-4ade-af02-92cba26c4144",
       "user_id": "21e2e5a9-edb5-48ea-9e60-b41d48c0a7d8",
       "filename": "New Recording 8",
-      "status": "processing",
-      "created_at": "2026-01-13T07:02:03.813071"
+      "status": "complete",
+      "created_at": "2026-01-13T07:02:03.813071",
+      "duration_seconds": 60.777,
+      "last_prompt": "leaves blowing in the wind"
+    },
+    {
+      "id": "b9c0a67a-8afb-4cf7-9113-1728139754fa",
+      "user_id": "21e2e5a9-edb5-48ea-9e60-b41d48c0a7d8",
+      "filename": "No Church In The Wild",
+      "status": "failed",
+      "created_at": "2026-01-13T07:37:37.783828",
+      "error": "Some chunks failed to upload"
+    },
+    {
+      "id": "de13681c-48c1-44bf-89db-31ba57d4c5ee",
+      "user_id": "21e2e5a9-edb5-48ea-9e60-b41d48c0a7d8",
+      "filename": "Yeat - ''Swerved It'' (Up 2 Me)",
+      "status": "complete",
+      "created_at": "2026-01-13T07:42:36.945899",
+      "duration_seconds": 140.005,
+      "last_prompt": "synthesizer"
     }
   ],
   "chunks": [
@@ -14,26 +33,449 @@
       "chunk_index": 0,
       "start_time": 0.0,
       "end_time": 29.0,
-      "status": "processing",
-      "created_at": "2026-01-13T07:02:05.617499"
+      "status": "complete",
+      "created_at": "2026-01-13T07:02:05.617499",
+      "sam_media_id": "26046575794997854"
     },
     {
       "upload_id": "87b1c5dc-3fca-4ade-af02-92cba26c4144",
       "chunk_index": 1,
       "start_time": 29.0,
       "end_time": 58.0,
-      "status": "processing",
-      "created_at": "2026-01-13T07:02:05.617978"
+      "status": "complete",
+      "created_at": "2026-01-13T07:02:05.617978",
+      "sam_media_id": "1564264661560074"
     },
     {
       "upload_id": "87b1c5dc-3fca-4ade-af02-92cba26c4144",
       "chunk_index": 2,
       "start_time": 58.0,
       "end_time": 60.777,
-      "status": "processing",
-      "created_at": "2026-01-13T07:02:05.618262"
+      "status": "complete",
+      "created_at": "2026-01-13T07:02:05.618262",
+      "sam_media_id": "850947251258239"
+    },
+    {
+      "upload_id": "b9c0a67a-8afb-4cf7-9113-1728139754fa",
+      "chunk_index": 0,
+      "start_time": 0.0,
+      "end_time": 29.0,
+      "status": "failed",
+      "created_at": "2026-01-13T07:38:05.109616",
+      "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://aidemos.meta.com/segment-anything/editor/segment-audio\", waiting until \"networkidle\"\n"
+    },
+    {
+      "upload_id": "b9c0a67a-8afb-4cf7-9113-1728139754fa",
+      "chunk_index": 1,
+      "start_time": 29.0,
+      "end_time": 58.0,
+      "status": "failed",
+      "created_at": "2026-01-13T07:38:05.111016",
+      "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://aidemos.meta.com/segment-anything/editor/segment-audio\", waiting until \"networkidle\"\n"
+    },
+    {
+      "upload_id": "b9c0a67a-8afb-4cf7-9113-1728139754fa",
+      "chunk_index": 2,
+      "start_time": 58.0,
+      "end_time": 87.0,
+      "status": "failed",
+      "created_at": "2026-01-13T07:38:05.111758",
+      "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://aidemos.meta.com/segment-anything/editor/segment-audio\", waiting until \"networkidle\"\n"
+    },
+    {
+      "upload_id": "b9c0a67a-8afb-4cf7-9113-1728139754fa",
+      "chunk_index": 3,
+      "start_time": 87.0,
+      "end_time": 116.0,
+      "status": "failed",
+      "created_at": "2026-01-13T07:38:05.113106",
+      "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://aidemos.meta.com/segment-anything/editor/segment-audio\", waiting until \"networkidle\"\n"
+    },
+    {
+      "upload_id": "b9c0a67a-8afb-4cf7-9113-1728139754fa",
+      "chunk_index": 4,
+      "start_time": 116.0,
+      "end_time": 145.0,
+      "status": "failed",
+      "created_at": "2026-01-13T07:38:05.114129",
+      "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://aidemos.meta.com/segment-anything/editor/segment-audio\", waiting until \"networkidle\"\n"
+    },
+    {
+      "upload_id": "b9c0a67a-8afb-4cf7-9113-1728139754fa",
+      "chunk_index": 5,
+      "start_time": 145.0,
+      "end_time": 174.0,
+      "status": "failed",
+      "created_at": "2026-01-13T07:38:05.115816",
+      "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://aidemos.meta.com/segment-anything/editor/segment-audio\", waiting until \"networkidle\"\n"
+    },
+    {
+      "upload_id": "b9c0a67a-8afb-4cf7-9113-1728139754fa",
+      "chunk_index": 6,
+      "start_time": 174.0,
+      "end_time": 203.0,
+      "status": "failed",
+      "created_at": "2026-01-13T07:38:05.116696",
+      "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://aidemos.meta.com/segment-anything/editor/segment-audio\", waiting until \"networkidle\"\n"
+    },
+    {
+      "upload_id": "b9c0a67a-8afb-4cf7-9113-1728139754fa",
+      "chunk_index": 7,
+      "start_time": 203.0,
+      "end_time": 232.0,
+      "status": "failed",
+      "created_at": "2026-01-13T07:38:05.121042",
+      "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://aidemos.meta.com/segment-anything/editor/segment-audio\", waiting until \"networkidle\"\n"
+    },
+    {
+      "upload_id": "b9c0a67a-8afb-4cf7-9113-1728139754fa",
+      "chunk_index": 8,
+      "start_time": 232.0,
+      "end_time": 261.0,
+      "status": "failed",
+      "created_at": "2026-01-13T07:38:05.122825",
+      "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://aidemos.meta.com/segment-anything/editor/segment-audio\", waiting until \"networkidle\"\n"
+    },
+    {
+      "upload_id": "b9c0a67a-8afb-4cf7-9113-1728139754fa",
+      "chunk_index": 9,
+      "start_time": 261.0,
+      "end_time": 290.0,
+      "status": "failed",
+      "created_at": "2026-01-13T07:38:05.124306",
+      "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://aidemos.meta.com/segment-anything/editor/segment-audio\", waiting until \"networkidle\"\n"
+    },
+    {
+      "upload_id": "b9c0a67a-8afb-4cf7-9113-1728139754fa",
+      "chunk_index": 10,
+      "start_time": 290.0,
+      "end_time": 303.566,
+      "status": "failed",
+      "created_at": "2026-01-13T07:38:05.125767",
+      "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://aidemos.meta.com/segment-anything/editor/segment-audio\", waiting until \"networkidle\"\n"
+    },
+    {
+      "upload_id": "de13681c-48c1-44bf-89db-31ba57d4c5ee",
+      "chunk_index": 0,
+      "start_time": 0.0,
+      "end_time": 29.0,
+      "status": "complete",
+      "created_at": "2026-01-13T07:42:45.897985",
+      "sam_media_id": "1088729679992433"
+    },
+    {
+      "upload_id": "de13681c-48c1-44bf-89db-31ba57d4c5ee",
+      "chunk_index": 1,
+      "start_time": 29.0,
+      "end_time": 58.0,
+      "status": "complete",
+      "created_at": "2026-01-13T07:42:45.904382",
+      "sam_media_id": "2374590062991547"
+    },
+    {
+      "upload_id": "de13681c-48c1-44bf-89db-31ba57d4c5ee",
+      "chunk_index": 2,
+      "start_time": 58.0,
+      "end_time": 87.0,
+      "status": "complete",
+      "created_at": "2026-01-13T07:42:45.907749",
+      "sam_media_id": "2764525920555674"
+    },
+    {
+      "upload_id": "de13681c-48c1-44bf-89db-31ba57d4c5ee",
+      "chunk_index": 3,
+      "start_time": 87.0,
+      "end_time": 116.0,
+      "status": "complete",
+      "created_at": "2026-01-13T07:42:45.910238",
+      "sam_media_id": "2458173974603225"
+    },
+    {
+      "upload_id": "de13681c-48c1-44bf-89db-31ba57d4c5ee",
+      "chunk_index": 4,
+      "start_time": 116.0,
+      "end_time": 140.005,
+      "status": "complete",
+      "created_at": "2026-01-13T07:42:45.913529",
+      "sam_media_id": "807606749002709"
     }
   ],
-  "outputs": [],
-  "output_chunks": []
+  "outputs": [
+    {
+      "id": "82fb51cb-c061-4d51-b94f-ff0abc0830cc",
+      "upload_id": "87b1c5dc-3fca-4ade-af02-92cba26c4144",
+      "user_id": "21e2e5a9-edb5-48ea-9e60-b41d48c0a7d8",
+      "prompt": "women talking",
+      "status": "failed",
+      "created_at": "2026-01-13T07:03:25.146959",
+      "error": "makedirs() got an unexpected keyword argument 'parents'"
+    },
+    {
+      "id": "fad466b3-98aa-483a-bc74-dcd86935a6dc",
+      "upload_id": "87b1c5dc-3fca-4ade-af02-92cba26c4144",
+      "user_id": "21e2e5a9-edb5-48ea-9e60-b41d48c0a7d8",
+      "prompt": "women talking",
+      "status": "failed",
+      "created_at": "2026-01-13T07:03:55.548535",
+      "error": "makedirs() got an unexpected keyword argument 'parents'"
+    },
+    {
+      "id": "91665828-e234-4724-a3c7-2c049a12469f",
+      "upload_id": "87b1c5dc-3fca-4ade-af02-92cba26c4144",
+      "user_id": "21e2e5a9-edb5-48ea-9e60-b41d48c0a7d8",
+      "prompt": "women talking",
+      "status": "complete",
+      "created_at": "2026-01-13T07:07:35.600608",
+      "isolated_url": "/outputs/91665828-e234-4724-a3c7-2c049a12469f/isolated.wav",
+      "without_isolated_url": "/outputs/91665828-e234-4724-a3c7-2c049a12469f/without_isolated.wav",
+      "isolated_mp3_url": "/outputs/91665828-e234-4724-a3c7-2c049a12469f/isolated.mp3",
+      "without_isolated_mp3_url": "/outputs/91665828-e234-4724-a3c7-2c049a12469f/without_isolated.mp3"
+    },
+    {
+      "id": "f0f31994-6b32-404a-ab77-1c0bbd879791",
+      "upload_id": "87b1c5dc-3fca-4ade-af02-92cba26c4144",
+      "user_id": "21e2e5a9-edb5-48ea-9e60-b41d48c0a7d8",
+      "prompt": "leaves blowing and the wind",
+      "status": "failed",
+      "created_at": "2026-01-13T07:10:35.109327",
+      "error": "Page.wait_for_selector: Timeout 120000ms exceeded.\nCall log:\nwaiting for locator(\"text=Add sound effects\") to be visible\n"
+    },
+    {
+      "id": "bc98bc72-8a8c-45be-a5b4-e1a43acd065b",
+      "upload_id": "87b1c5dc-3fca-4ade-af02-92cba26c4144",
+      "user_id": "21e2e5a9-edb5-48ea-9e60-b41d48c0a7d8",
+      "prompt": "leaves blowing in the wind",
+      "status": "complete",
+      "created_at": "2026-01-13T07:21:52.850636",
+      "isolated_url": "/outputs/bc98bc72-8a8c-45be-a5b4-e1a43acd065b/isolated.wav",
+      "without_isolated_url": "/outputs/bc98bc72-8a8c-45be-a5b4-e1a43acd065b/without_isolated.wav",
+      "isolated_mp3_url": "/outputs/bc98bc72-8a8c-45be-a5b4-e1a43acd065b/isolated.mp3",
+      "without_isolated_mp3_url": "/outputs/bc98bc72-8a8c-45be-a5b4-e1a43acd065b/without_isolated.mp3"
+    },
+    {
+      "id": "37eb29de-0579-4d2c-9e49-68437faaafee",
+      "upload_id": "de13681c-48c1-44bf-89db-31ba57d4c5ee",
+      "user_id": "21e2e5a9-edb5-48ea-9e60-b41d48c0a7d8",
+      "prompt": "sythesizer",
+      "status": "failed",
+      "created_at": "2026-01-13T07:43:55.956158",
+      "error": "Timeout 30000ms exceeded while waiting for event \"download\"\n=========================== logs ===========================\nwaiting for event \"download\"\n============================================================"
+    },
+    {
+      "id": "faabf695-1326-48bb-84ce-228e57053d40",
+      "upload_id": "de13681c-48c1-44bf-89db-31ba57d4c5ee",
+      "user_id": "21e2e5a9-edb5-48ea-9e60-b41d48c0a7d8",
+      "prompt": "synthesizer",
+      "status": "failed",
+      "created_at": "2026-01-13T07:46:57.711526",
+      "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://aidemos.meta.com/segment-anything/editor/segment-audio/?media_id=1088729679992433\", waiting until \"networkidle\"\n"
+    },
+    {
+      "id": "cd46c67c-9b8b-44e8-af59-5deee97ea7c5",
+      "upload_id": "de13681c-48c1-44bf-89db-31ba57d4c5ee",
+      "user_id": "21e2e5a9-edb5-48ea-9e60-b41d48c0a7d8",
+      "prompt": "synthesizer",
+      "status": "complete",
+      "created_at": "2026-01-13T07:52:55.943038",
+      "isolated_url": "/outputs/cd46c67c-9b8b-44e8-af59-5deee97ea7c5/isolated.wav",
+      "without_isolated_url": "/outputs/cd46c67c-9b8b-44e8-af59-5deee97ea7c5/without_isolated.wav",
+      "isolated_mp3_url": "/outputs/cd46c67c-9b8b-44e8-af59-5deee97ea7c5/isolated.mp3",
+      "without_isolated_mp3_url": "/outputs/cd46c67c-9b8b-44e8-af59-5deee97ea7c5/without_isolated.mp3"
+    }
+  ],
+  "output_chunks": [
+    {
+      "output_id": "82fb51cb-c061-4d51-b94f-ff0abc0830cc",
+      "chunk_index": 0,
+      "status": "failed",
+      "created_at": "2026-01-13T07:03:25.147893",
+      "error": "makedirs() got an unexpected keyword argument 'parents'"
+    },
+    {
+      "output_id": "82fb51cb-c061-4d51-b94f-ff0abc0830cc",
+      "chunk_index": 1,
+      "status": "failed",
+      "created_at": "2026-01-13T07:03:25.148222",
+      "error": "makedirs() got an unexpected keyword argument 'parents'"
+    },
+    {
+      "output_id": "82fb51cb-c061-4d51-b94f-ff0abc0830cc",
+      "chunk_index": 2,
+      "status": "failed",
+      "created_at": "2026-01-13T07:03:25.148627",
+      "error": "makedirs() got an unexpected keyword argument 'parents'"
+    },
+    {
+      "output_id": "fad466b3-98aa-483a-bc74-dcd86935a6dc",
+      "chunk_index": 0,
+      "status": "failed",
+      "created_at": "2026-01-13T07:03:55.549600",
+      "error": "makedirs() got an unexpected keyword argument 'parents'"
+    },
+    {
+      "output_id": "fad466b3-98aa-483a-bc74-dcd86935a6dc",
+      "chunk_index": 1,
+      "status": "failed",
+      "created_at": "2026-01-13T07:03:55.549974",
+      "error": "makedirs() got an unexpected keyword argument 'parents'"
+    },
+    {
+      "output_id": "fad466b3-98aa-483a-bc74-dcd86935a6dc",
+      "chunk_index": 2,
+      "status": "failed",
+      "created_at": "2026-01-13T07:03:55.550432",
+      "error": "makedirs() got an unexpected keyword argument 'parents'"
+    },
+    {
+      "output_id": "91665828-e234-4724-a3c7-2c049a12469f",
+      "chunk_index": 0,
+      "status": "complete",
+      "created_at": "2026-01-13T07:07:35.603037"
+    },
+    {
+      "output_id": "91665828-e234-4724-a3c7-2c049a12469f",
+      "chunk_index": 1,
+      "status": "complete",
+      "created_at": "2026-01-13T07:07:35.604062"
+    },
+    {
+      "output_id": "91665828-e234-4724-a3c7-2c049a12469f",
+      "chunk_index": 2,
+      "status": "complete",
+      "created_at": "2026-01-13T07:07:35.605027"
+    },
+    {
+      "output_id": "f0f31994-6b32-404a-ab77-1c0bbd879791",
+      "chunk_index": 0,
+      "status": "failed",
+      "created_at": "2026-01-13T07:10:35.111339",
+      "error": "Page.wait_for_selector: Timeout 120000ms exceeded.\nCall log:\nwaiting for locator(\"text=Add sound effects\") to be visible\n"
+    },
+    {
+      "output_id": "f0f31994-6b32-404a-ab77-1c0bbd879791",
+      "chunk_index": 1,
+      "status": "failed",
+      "created_at": "2026-01-13T07:10:35.111962",
+      "error": "Page.wait_for_selector: Timeout 120000ms exceeded.\nCall log:\nwaiting for locator(\"text=Add sound effects\") to be visible\n"
+    },
+    {
+      "output_id": "f0f31994-6b32-404a-ab77-1c0bbd879791",
+      "chunk_index": 2,
+      "status": "complete",
+      "created_at": "2026-01-13T07:10:35.112603"
+    },
+    {
+      "output_id": "bc98bc72-8a8c-45be-a5b4-e1a43acd065b",
+      "chunk_index": 0,
+      "status": "complete",
+      "created_at": "2026-01-13T07:21:52.851756"
+    },
+    {
+      "output_id": "bc98bc72-8a8c-45be-a5b4-e1a43acd065b",
+      "chunk_index": 1,
+      "status": "complete",
+      "created_at": "2026-01-13T07:21:52.852773"
+    },
+    {
+      "output_id": "bc98bc72-8a8c-45be-a5b4-e1a43acd065b",
+      "chunk_index": 2,
+      "status": "complete",
+      "created_at": "2026-01-13T07:21:52.853262"
+    },
+    {
+      "output_id": "37eb29de-0579-4d2c-9e49-68437faaafee",
+      "chunk_index": 0,
+      "status": "failed",
+      "created_at": "2026-01-13T07:43:55.957884",
+      "error": "Timeout 30000ms exceeded while waiting for event \"download\"\n=========================== logs ===========================\nwaiting for event \"download\"\n============================================================"
+    },
+    {
+      "output_id": "37eb29de-0579-4d2c-9e49-68437faaafee",
+      "chunk_index": 1,
+      "status": "complete",
+      "created_at": "2026-01-13T07:43:55.959509"
+    },
+    {
+      "output_id": "37eb29de-0579-4d2c-9e49-68437faaafee",
+      "chunk_index": 2,
+      "status": "complete",
+      "created_at": "2026-01-13T07:43:55.960735"
+    },
+    {
+      "output_id": "37eb29de-0579-4d2c-9e49-68437faaafee",
+      "chunk_index": 3,
+      "status": "complete",
+      "created_at": "2026-01-13T07:43:55.961644"
+    },
+    {
+      "output_id": "37eb29de-0579-4d2c-9e49-68437faaafee",
+      "chunk_index": 4,
+      "status": "complete",
+      "created_at": "2026-01-13T07:43:55.962502"
+    },
+    {
+      "output_id": "faabf695-1326-48bb-84ce-228e57053d40",
+      "chunk_index": 0,
+      "status": "failed",
+      "created_at": "2026-01-13T07:46:58.500132",
+      "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://aidemos.meta.com/segment-anything/editor/segment-audio/?media_id=1088729679992433\", waiting until \"networkidle\"\n"
+    },
+    {
+      "output_id": "faabf695-1326-48bb-84ce-228e57053d40",
+      "chunk_index": 1,
+      "status": "failed",
+      "created_at": "2026-01-13T07:46:58.503104",
+      "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://aidemos.meta.com/segment-anything/editor/segment-audio/?media_id=2374590062991547\", waiting until \"networkidle\"\n"
+    },
+    {
+      "output_id": "faabf695-1326-48bb-84ce-228e57053d40",
+      "chunk_index": 2,
+      "status": "complete",
+      "created_at": "2026-01-13T07:46:58.727683"
+    },
+    {
+      "output_id": "faabf695-1326-48bb-84ce-228e57053d40",
+      "chunk_index": 3,
+      "status": "failed",
+      "created_at": "2026-01-13T07:46:59.379880",
+      "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://aidemos.meta.com/segment-anything/editor/segment-audio/?media_id=2458173974603225\", waiting until \"networkidle\"\n"
+    },
+    {
+      "output_id": "faabf695-1326-48bb-84ce-228e57053d40",
+      "chunk_index": 4,
+      "status": "failed",
+      "created_at": "2026-01-13T07:46:59.383447",
+      "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://aidemos.meta.com/segment-anything/editor/segment-audio/?media_id=807606749002709\", waiting until \"networkidle\"\n"
+    },
+    {
+      "output_id": "cd46c67c-9b8b-44e8-af59-5deee97ea7c5",
+      "chunk_index": 0,
+      "status": "complete",
+      "created_at": "2026-01-13T07:52:55.945715"
+    },
+    {
+      "output_id": "cd46c67c-9b8b-44e8-af59-5deee97ea7c5",
+      "chunk_index": 1,
+      "status": "complete",
+      "created_at": "2026-01-13T07:52:55.947467"
+    },
+    {
+      "output_id": "cd46c67c-9b8b-44e8-af59-5deee97ea7c5",
+      "chunk_index": 2,
+      "status": "complete",
+      "created_at": "2026-01-13T07:52:55.948555"
+    },
+    {
+      "output_id": "cd46c67c-9b8b-44e8-af59-5deee97ea7c5",
+      "chunk_index": 3,
+      "status": "complete",
+      "created_at": "2026-01-13T07:52:55.949460"
+    },
+    {
+      "output_id": "cd46c67c-9b8b-44e8-af59-5deee97ea7c5",
+      "chunk_index": 4,
+      "status": "complete",
+      "created_at": "2026-01-13T07:52:55.950825"
+    }
+  ]
 }
