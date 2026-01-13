@@ -1,6 +1,39 @@
 {
-  "uploads": [],
-  "chunks": [],
+  "uploads": [
+    {
+      "id": "87b1c5dc-3fca-4ade-af02-92cba26c4144",
+      "user_id": "21e2e5a9-edb5-48ea-9e60-b41d48c0a7d8",
+      "filename": "New Recording 8",
+      "status": "processing",
+      "created_at": "2026-01-13T07:02:03.813071"
+    }
+  ],
+  "chunks": [
+    {
+      "upload_id": "87b1c5dc-3fca-4ade-af02-92cba26c4144",
+      "chunk_index": 0,
+      "start_time": 0.0,
+      "end_time": 29.0,
+      "status": "processing",
+      "created_at": "2026-01-13T07:02:05.617499"
+    },
+    {
+      "upload_id": "87b1c5dc-3fca-4ade-af02-92cba26c4144",
+      "chunk_index": 1,
+      "start_time": 29.0,
+      "end_time": 58.0,
+      "status": "processing",
+      "created_at": "2026-01-13T07:02:05.617978"
+    },
+    {
+      "upload_id": "87b1c5dc-3fca-4ade-af02-92cba26c4144",
+      "chunk_index": 2,
+      "start_time": 58.0,
+      "end_time": 60.777,
+      "status": "processing",
+      "created_at": "2026-01-13T07:02:05.618262"
+    }
+  ],
   "outputs": [],
   "output_chunks": []
 }

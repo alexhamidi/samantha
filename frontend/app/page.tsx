@@ -465,7 +465,7 @@ function UploadPage() {
             <div className="flex flex-col items-center">
               <h1 className="text-5xl mb-10 w-[900px] text-justify uppercase leading-tight" style={{ fontFamily: 'Helvetica Neue, sans-serif', fontWeight: 700 }}>isolate any part of an audio track with prompts.</h1>
               <h1 className="text-5xl mb-10 w-[900px] text-justify uppercase leading-tight" style={{ fontFamily: 'Helvetica Neue, sans-serif', fontWeight: 700 }}>EX: "synthesizer only", "drums and bass", "vocals only"</h1>
-              <h1 className="text-5xl mb-10 w-[900px] text-justify uppercase leading-tight" style={{ fontFamily: 'Helvetica Neue, sans-serif', fontWeight: 700 }}>its entirely free, so try it (.mp3, .wav)</h1>
+              <h1 className="text-5xl mb-10 w-[900px] text-justify uppercase leading-tight" style={{ fontFamily: 'Helvetica Neue, sans-serif', fontWeight: 700 }}>its entirely free, so try it (.mp3, .wav, .m4a)</h1>
                 
               <button 
                 onClick={() => fileInputRef.current?.click()}
@@ -479,7 +479,7 @@ function UploadPage() {
             <input 
               ref={fileInputRef}
               type="file" 
-              accept=".mp3,.wav,audio/mpeg,audio/wav" 
+              accept=".mp3,.wav,.m4a,audio/mpeg,audio/wav,audio/mp4,audio/x-m4a" 
               onChange={handleUpload}
               className="hidden"
             />
